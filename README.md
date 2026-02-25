@@ -65,89 +65,83 @@ pip install flask
 ⭐ If you like this project, give it a star!
 
 
-<h1 align="center">Hi 👋, I'm Hitesh Chourasia</h1>
-<h3 align="center">🚀 AI/ML Enthusiast | Full Stack Developer | Founder of HitSanX</h3>
+<h1 align="center">
+  Hi 👋 I'm Hitesh Chourasia
+</h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hitesharya10&label=Profile%20views&color=0e75b6&style=flat" alt="hitesharya10" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00BFFF&center=true&vCenter=true&width=600&lines=Self-Taught+Developer;AI+%2F+ML+Enthusiast;Full-Stack+Developer;Founder+%40+HitSanX;Building+Skills+Every+Day+🚀" />
 </p>
 
 ---
 
-### 🧠 About Me
+## 🚀 About Me
 
-- 🔭 Currently building projects under **HitSanX**
-- 🌱 Learning & improving in **AI/ML, Full Stack Development & Cloud**
-- 💡 Interested in **Startups, SaaS & Scalable Systems**
-- 📫 Reach me at: **hiteshchourasia001@gmail.com**
+I’m a passionate self-taught developer focused on building real-world technical skills.
 
----
+📚 Currently continuing my education through NIOS (Open Board)  
+🎯 Preparing for higher studies in technology  
+💡 Committed to continuous learning and long-term growth  
+🚀 Founder of HitSanX — a personal tech initiative focused on AI, development, and digital innovation.
 
-### 🌐 Connect with Me
-
-<p align="left">
-<a href="https://www.linkedin.com/in/hitesh-chourasia-04a3713a4/" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
-</a>
-<a href="https://www.youtube.com/@hitesharya100" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40" />
-</a>
-</p>
+Since 2020, I’ve dedicated myself to mastering programming, development, and creative tools — building a strong technical foundation.
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-#### 💻 Programming Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,js,java,c,cpp,php,mysql" />
-</p>
+### 💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white)
 
-#### 🌐 Frontend
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,bootstrap" />
-</p>
+### 🌐 Web Development
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-#### ⚙️ Backend
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,flask" />
-</p>
+### 🎮 Game Development & 3D
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
 
-#### 🗄️ Database
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" />
-</p>
+### 🎨 Creative Tools
+![Photoshop](https://img.shields.io/badge/Photoshop-001E36?style=for-the-badge&logo=adobephotoshop&logoColor=31A8FF)
+![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-2B2B2B?style=for-the-badge&logo=adobepremierepro&logoColor=9999FF)
 
-#### ☁️ DevOps & Cloud
-<p>
-<img src="https://skillicons.dev/icons?i=docker,aws,linux,git" />
-</p>
+---
 
-#### 🤖 AI / Data
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="48" height="48"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="48" height="48"/>
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HiteshArya10&show_icons=true&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HiteshArya10&theme=tokyonight" height="170"/>
 </p>
 
 ---
 
-### 📊 GitHub Stats
+## 🎯 Current Focus
 
-<p>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hitesharya10&show_icons=true&locale=en&layout=compact" />
-</p>
-
-<p>&nbsp;
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=hitesharya10&show_icons=true&locale=en&theme=tokyonight" />
-</p>
-
-<p>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hitesharya10&theme=tokyonight" />
-</p>
+- AI / Machine Learning  
+- Full-Stack Development  
+- Building scalable projects  
+- Preparing for higher education in technology  
 
 ---
 
-### 🎯 Vision
+## 🌟 Vision
 
-> Building AI-powered products and scalable systems that solve real-world problems.
+To become a highly skilled software engineer and build impactful technology products globally.
+
+---
+
+## 📫 Connect With Me
+
+Founder @ HitSanX 🚀  
+📧 hiteshchourasia001@gmail.com  
+
+---
+
+⭐ “Learning consistently. Building fearlessly.”
