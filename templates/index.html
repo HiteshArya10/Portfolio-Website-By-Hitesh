@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- Top Navigation -->
+<nav class="main-nav">
+    <a href="#" class="nav-logo">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="HitsanX" class="nav-logo-img">
+    </a>
+    <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#my-videos">Videos</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#links">Contact</a></li>
+    </ul>
+    <div class="nav-utils">
+        <button type="button" class="icon-btn" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle light/dark mode">
+            <span class="theme-icon theme-icon-sun" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></span>
+            <span class="theme-icon theme-icon-moon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="hero-bg"></div>
+    <span class="hero-badge">Portfolio</span>
+    <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/hitesh-chourasia-04a3713a4/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/Hitesh0Chourasia" target="_blank" rel="noopener" aria-label="GitHub">⌘</a>
+        <a href="mailto:hiteshchourasia001@gmail.com" aria-label="Email">✉</a>
+        <a href="https://linktr.ee/yourlinktree" target="_blank" rel="noopener" aria-label="Linktree">⎗</a>
+    </div>
+    <p class="hero-category">• SOFTWARE DEVELOPER •</p>
+    <div class="hero-heading-row">
+        <div class="hero-logo-small">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="HitsanX logo">
+        </div>
+        <h1 class="hero-headline">Building Digital Solutions For Your <span class="highlight">Growing Ideas</span></h1>
+    </div>
+    <p class="hero-desc">I build software, experiment with AI, and love turning ideas into products. Python, web dev, and Japanese on the side.</p>
+    <div class="hero-ctas">
+        <a href="#projects" class="btn btn-outline">Start Now</a>
+        <a href="#my-videos" class="btn btn-play" aria-label="Watch videos"><span class="play-icon"></span></a>
+    </div>
+    <div class="hero-slider-nav">
+        <button type="button" class="slider-arrow" aria-label="Previous">↑</button>
+        <button type="button" class="slider-arrow" aria-label="Next">↓</button>
+    </div>
+</header>
+
+<!-- My Videos -->
+<section class="videos-section section" id="my-videos">
+    <h2 class="section-title">My Videos</h2>
+    <p class="section-desc">Short clips and demos I've created.</p>
+    <div class="video-grid">
+        <div class="video-card">
+            <div class="video-placeholder">
+                <span>Your video 1</span>
+            </div>
+            <p class="video-caption">Add your video link or embed here</p>
+        </div>
+        <div class="video-card">
+            <div class="video-placeholder">
+                <span>Your video 2</span>
+            </div>
+            <p class="video-caption">Add your video link or embed here</p>
+        </div>
+    </div>
+</section>
+
+<!-- YouTube -->
+<section class="youtube-section section" id="youtube">
+    <h2 class="section-title">YouTube</h2>
+    <p class="section-desc">Videos from my channel.</p>
+    <div class="video-grid youtube-grid">
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video-caption">Replace with your video ID</p>
+        </div>
+        <div class="video-card">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video-caption">Replace with your video ID</p>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="projects-section section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-desc">Things I've built and shipped.</p>
+    <div class="projects-grid">
+        <article class="project-card">
+            <h3>AI Chatbot</h3>
+            <p>Built using Python and Machine Learning.</p>
+        </article>
+        <article class="project-card">
+            <h3>Japanese Learning App</h3>
+            <p>N5 level learning system with practice sections.</p>
+        </article>
+        <article class="project-card">
+            <h3>Portfolio Site</h3>
+            <p>This site — Flask, HTML & CSS.</p>
+        </article>
+    </div>
+</section>
+
+<!-- Resume -->
+<section class="resume-section section" id="resume">
+    <h2 class="section-title">Resume</h2>
+    <p class="section-desc">Download or view my resume.</p>
+    <div class="resume-actions">
+        <a href="/static/resume.pdf" class="btn btn-primary" download>Download PDF</a>
+        <a href="/static/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">View Online</a>
+    </div>
+    <p class="resume-note">Place your <code>resume.pdf</code> in the <code>static/</code> folder.</p>
+</section>
+
+<!-- About + Connect -->
+<section class="about-connect section" id="about">
+    <h2 class="section-title">About</h2>
+    <p class="about-text">I'm passionate about software engineering, AI, and building digital solutions. Currently learning Python, Web Development, and Japanese.</p>
+
+    <div class="connect-block" id="links">
+        <h2 class="section-title">Connect</h2>
+        <p class="section-desc">LinkedIn, GitHub, Email & more.</p>
+        <div class="link-list">
+            <a href="https://www.linkedin.com/in/hitesh-chourasia-04a3713a4/" class="link-card" target="_blank" rel="noopener">
+                <span class="link-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Hitesh0Chourasia" class="link-card" target="_blank" rel="noopener">
+                <span class="link-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></span>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:hiteshchourasia001@gmail.com" class="link-card">
+                <span class="link-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
+                <span>Email</span>
+            </a>
+            <a href="https://linktr.ee/yourlinktree" class="link-card" target="_blank" rel="noopener">
+                <span class="link-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></span>
+                <span>Linktree</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Bottom thumbnails (section previews) -->
+<section class="thumb-strip">
+    <a href="#my-videos" class="thumb-card"><span>My Videos</span></a>
+    <a href="#youtube" class="thumb-card"><span>YouTube</span></a>
+    <a href="#projects" class="thumb-card"><span>Projects</span></a>
+    <a href="#resume" class="thumb-card"><span>Resume</span></a>
+    <a href="#links" class="thumb-card"><span>Contact</span></a>
+</section>
+
+<div class="site-watermark">HiteshArya10</div>
+
+<footer class="site-footer">
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/in/hitesh-chourasia-04a3713a4/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://github.com/Hitesh0Chourasia" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="mailto:hiteshchourasia001@gmail.com" aria-label="Email">hiteshchourasia001@gmail.com</a>
+        <a href="https://linktr.ee/yourlinktree" target="_blank" rel="noopener" aria-label="Linktree">Linktree</a>
+    </div>
+    <p class="footer-copy">© 2026 Hitesh. All Rights Reserved.</p>
+</footer>
+
+<script>
+(function() {
+    var STORAGE_KEY = 'portfolio-theme';
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+
+    function getPreferred() {
+        var saved = localStorage.getItem(STORAGE_KEY);
+        if (saved === 'light' || saved === 'dark') return saved;
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) return 'light';
+        return 'dark';
+    }
+
+    function setTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem(STORAGE_KEY, theme);
+    }
+
+    function toggle() {
+        var current = root.getAttribute('data-theme') || 'dark';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+    }
+
+    setTheme(getPreferred());
+    btn.addEventListener('click', toggle);
+})();
+</script>
+</body>
+</html>
