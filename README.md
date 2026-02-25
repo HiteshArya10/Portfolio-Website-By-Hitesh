@@ -1,42 +1,65 @@
 # Portfolio-By-Hitesh
-![Banner](banner.png)
+# 🚀 Portfolio Website – HitSanX
 
-🚀 Portfolio Website – HitSanX
+<p align="center">
+  <img src="banner.png" width="100%" />
+</p>
 
-This is my personal portfolio website built using Python, HTML, and CSS.
+## 📖 About
+This is my personal portfolio website built using **Python, HTML, and CSS**.  
 It showcases my projects, work, and skills.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
 portfolio/
 │
 ├── app.py
 ├── templates/
 ├── static/
 └── README.md
-▶️ How to Run the Project
 
-Follow these steps to run the website locally:
 
-1️⃣ Open Terminal / CMD
-2️⃣ Go to Project Folder
-cd portfolio
-3️⃣ Run the Application
-python app.py
+---
 
-After running the command, open your browser and go to:
+## ▶️ Run the Project
 
-http://127.0.0.1:5000
+### 1️⃣ Open Terminal / CMD
 
-Your site will be live locally 🎉
+### 2️⃣ Go to the project folder
 
-🛠 Requirements
 
-Make sure Python is installed:
+### 3️⃣ Run the application
 
-python --version
 
-If you're using Flask, install it:
+Now open your browser and go to:
+
+👉 http://127.0.0.1:5000
+
+🎉 Your website will be running locally!
+
+---
+
+## 🛠 Requirements
+
+Check Python version:
+
+
+If using Flask:
 
 pip install flask
 
 
+---
+
+## 💻 Tech Stack
+
+- Python
+- Flask
+- HTML
+- CSS
+
+---
+
+⭐ If you like this project, give it a star!
